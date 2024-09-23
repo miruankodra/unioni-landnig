@@ -21,3 +21,18 @@ html {
 .gradient__feature {
   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
+
+.gradient_spot {
+  width: 500px;
+  height: 500px;
+  background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
+  filter: blur(150px);
+}
+
+.hero-bg {
+  opacity: 0.2;
+  width: 1200px;
+  mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+  mask-mode: alpha;
+  background-image: url("assets/images/new-pattern.jpg");
+}

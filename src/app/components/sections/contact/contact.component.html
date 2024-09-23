@@ -1,124 +1,134 @@
-<div id="kontakte">
-  <section class="mb-32">
-    <div id="map" class="relative h-[500px] overflow-hidden bg-cover bg-[50%] bg-no-repeat">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2914.2248686623316!2d19.809772975799625!3d41.3273325997185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135031dec6507763%3A0xb4932337b667eab1!2sTexo%20Training%20Center!5e1!3m2!1sen!2s!4v1725371810155!5m2!1sen!2s"
-        width="100%" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </div>
-    <div class="container px-6 md:px-12">
-      <div
-        class="block rounded-lg bg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px] border border-gray-300">
-        <div class="flex flex-wrap">
-          <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6">
-            <form>
-              <div class="relative mb-6" data-te-input-wrapper-init>
-                <input type="text"
-                       class="peer block min-h-[auto] w-full rounded border-2 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none "
-                       id="exampleInput90" />
-                <label
-                  class="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none "
-                  for="exampleInput90">Emri
-                </label>
+<div id="kontakte" class="relative isolate overflow-hidden bg-transparent px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+  <div class="absolute inset-0 -z-10 overflow-hidden">
+    <svg class="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]" aria-hidden="true">
+      <defs>
+        <pattern id="e813992c-7d03-4cc4-a2bd-151760b470a0" width="200" height="200" x="50%" y="-1" patternUnits="userSpaceOnUse">
+          <path d="M100 200V.5M.5 .5H200" fill="none" />
+        </pattern>
+      </defs>
+      <svg x="50%" y="-1" class="overflow-visible fill-gray-50">
+        <path d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z" stroke-width="0" />
+      </svg>
+      <rect width="100%" height="100%" stroke-width="0" fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)" />
+    </svg>
+  </div>
+  <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
+    <div class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+      <div class="lg:pr-4">
+        <div class="lg:max-w-lg">
+          <p class="relative text-base font-semibold leading-7 text-usm-red z-50">Kontakt</p>
+          <h1 class="relative mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl z-50">Deshiron të na bashkohesh?</h1>
+          <div class="isolate bg-transparent px-6 py-5 sm:py-10 lg:px-8 z-30">
+            <div class="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]" aria-hidden="true">
+              <div class="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+            </div>
+            <form action="#" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
+              <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+                <div>
+                  <label for="first-name" class="block text-sm font-semibold leading-6 text-gray-900">Emri</label>
+                  <div class="mt-2.5">
+                    <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                  </div>
+                </div>
+                <div>
+                  <label for="last-name" class="block text-sm font-semibold leading-6 text-gray-900">Mbiemri</label>
+                  <div class="mt-2.5">
+                    <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                  </div>
+                </div>
+                <div class="sm:col-span-2">
+                  <label for="company" class="block text-sm font-semibold leading-6 text-gray-900">Universiteti</label>
+                  <div class="mt-2.5">
+                    <input type="text" name="company" id="company" autocomplete="organization" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                  </div>
+                </div>
+                <div class="sm:col-span-2">
+                  <label for="email" class="block text-sm font-semibold leading-6 text-gray-900">Email</label>
+                  <div class="mt-2.5">
+                    <input type="email" name="email" id="email" autocomplete="email" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                  </div>
+                </div>
+                <div class="sm:col-span-2">
+                  <label for="phone-number" class="block text-sm font-semibold leading-6 text-gray-900">Numri i Telefonit</label>
+                  <div class="relative mt-2.5">
+                    <div class="absolute inset-y-0 left-0 flex items-center">
+                      <label for="Prefix" class="sr-only">Prefix</label>
+                      <input type="text" id="Prefix" value="+355" class="pointer-events-none text-gray-500 ml-3 w-[50px] bg-transparent"/>
+                    </div>
+                    <input type="tel" name="phone-number" id="phone-number" autocomplete="tel" class="block w-full rounded-md border-0 px-3.5 py-2 pl-20 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                  </div>
+                </div>
+                <div class="sm:col-span-2">
+                  <label for="message" class="block text-sm font-semibold leading-6 text-gray-900">Mesazh (Opsional)</label>
+                  <div class="mt-2.5">
+                    <textarea name="message" id="message" rows="4" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+                  </div>
+                </div>
+<!--                <div class="flex gap-x-4 sm:col-span-2">-->
+<!--                  <div class="flex h-6 items-center">-->
+<!--                    &lt;!&ndash; Enabled: "bg-indigo-600", Not Enabled: "bg-gray-200" &ndash;&gt;-->
+<!--                    <button type="button" class="flex w-8 flex-none cursor-pointer rounded-full bg-gray-200 p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" role="switch" aria-checked="false" aria-labelledby="switch-1-label">-->
+<!--                      <span class="sr-only">Agree to policies</span>-->
+<!--                      &lt;!&ndash; Enabled: "translate-x-3.5", Not Enabled: "translate-x-0" &ndash;&gt;-->
+<!--                      <span aria-hidden="true" class="h-4 w-4 translate-x-0 transform rounded-full bg-white shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out"></span>-->
+<!--                    </button>-->
+<!--                  </div>-->
+<!--                  <label class="text-sm leading-6 text-gray-600" id="switch-1-label">-->
+<!--                    By selecting this, you agree to our-->
+<!--                    <a href="#" class="font-semibold text-indigo-600">privacy&nbsp;policy</a>.-->
+<!--                  </label>-->
+<!--                </div>-->
               </div>
-              <div class="relative mb-6" data-te-input-wrapper-init>
-                <input type="email"
-                       class="peer block min-h-[auto] w-full rounded border-2 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none "
-                       id="exampleInput91" />
-                <label
-                  class="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none "
-                  for="exampleInput91">Adresa Elektronike
-                </label>
+              <div class="mt-10">
+                <button type="submit" class="block w-full rounded-md bg-indigo-600 bg-usm-red px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Le të flasim</button>
               </div>
-              <div class="relative mb-6" data-te-input-wrapper-init>
-              <textarea
-                class="peer block min-h-[auto] w-full rounded border-2 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none "
-                id="exampleFormControlTextarea1" rows="3"></textarea>
-                <label for="exampleFormControlTextarea1"
-                       class="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none ">Mesazhi</label>
-              </div>
-              <app-button background="bg-transparent"
-                          border="border-[3px] border-usm-red"
-                          text="text-usm-red text-[22px] font-semibold"
-                          hover="transition-colors delay-100 duration-300 hover:bg-usm-red hover:text-white">Dërgo</app-button>
             </form>
-          </div>
-          <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-            <div class="flex flex-wrap">
-              <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:w-full lg:px-6 xl:w-6/12">
-                <div class="flex items-start">
-                  <div class="shrink-0">
-                    <div class="inline-block rounded-md bg-usm-red p-4 text-primary">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                           stroke="#ffffff" class="h-6 w-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                              d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0l6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 014.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 00-.38 1.21 12.035 12.035 0 007.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 011.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 01-2.25 2.25h-2.25z" />
-                      </svg>
-                    </div>
-                  </div>
-                  <div class="ml-6 grow">
-                    <p class="mb-2 font-bold ">
-                      Telefoni
-                    </p>
-                    <p class="text-neutral-500"> +91 123456789
-                    </p>
-                  </div>
+
+            <div class="w-full flex flex-wrap items-start justify-start mt-20 gap-10">
+              <a href="tel:+355675789678" target="_blank" class="transition ease-in-out delay-150 flex flex-row items-center hover:-translate-y-1 hover:scale-110">
+                <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
+                  <img src="assets/images/icons/phone.svg" alt="Phone Number" class="w-[40px] h-[40px]">
                 </div>
-              </div>
-              <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:w-full lg:px-6 xl:w-6/12">
-                <div class="flex items-start">
-                  <div class="srink-0">
-                    <div class="inline-block rounded-md bg-usm-red p-4 text-primary">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                           stroke="#ffffff" class="w-7 h-7">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                              d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5zm6-10.125a1.875 1.875 0 11-3.75 0 1.875 1.875 0 013.75 0zm1.294 6.336a6.721 6.721 0 01-3.17.789 6.721 6.721 0 01-3.168-.789 3.376 3.376 0 016.338 0z" />
-                      </svg>
-                    </div>
-                  </div>
-                  <div class="ml-6 grow">
-                    <p class="mb-2 font-bold ">
-                      Adresa
-                    </p>
-                    <p class="text-sm text-neutral-500">
-                      Rruga Hajdar Hidi,<br>
-                      Tirana 1001 <br>
-                    </p>
-                  </div>
+                <div class="flex flex-col items-start">
+                  <p class="font-semibold text-black">Numër Telefoni</p>
+                  <p class="leading-7 text-gray-800">+355 67 574 7378</p>
                 </div>
-              </div>
-              <div
-                class="mb-12 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 md:px-3 lg:mb-12 lg:w-full lg:px-6 xl:w-6/12">
-                <div class="align-start flex">
-                  <div class="shrink-0">
-                    <div class="inline-block rounded-md bg-usm-red p-4 text-primary">
-                      <img src="assets/images/icons/mail.svg" alt="Email Address" class="w-7 h-7">
-                    </div>
-                  </div>
-                  <div class="ml-6 grow">
-                    <p class="mb-2 font-bold ">Adresa Elektronike</p>
-                    <p class="text-neutral-500"> (0421) 431 2030
-                    </p>
-                  </div>
+              </a>
+              <a href="mailto:info@usm.al" target="_blank" class="transition ease-in-out delay-150 flex flex-row items-center hover:-translate-y-1 hover:scale-110">
+                <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
+                  <img src="assets/images/icons/mail.svg" alt="Email Address" class="w-[40px] h-[40px]">
                 </div>
-              </div>
-              <div class="w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:w-full lg:px-6 xl:mb-12 xl:w-6/12">
-                <div class="align-start flex">
-                  <div class="shrink-0">
-                    <div class="inline-block rounded-md bg-usm-red p-4 text-primary">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" viewBox="0 0 512 512" ><path d="M256 64C150 64 64 150 64 256s86 192 192 192 192-86 192-192S362 64 256 64z" fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="32"/><path fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M256 128v144h96"/></svg>
-                    </div>
-                  </div>
-                  <div class="ml-6 grow">
-                    <p class="mb-2 font-bold ">Orari</p>
-                    <p class="text-neutral-500"> 09:00 - 16:00
-                    </p>
-                  </div>
+                <div class="flex flex-col items-start">
+                  <p class="font-semibold text-black">Adresa Elektronike</p>
+                  <p class="leading-7 text-gray-800">info&#64;usm.al</p>
                 </div>
-              </div>
+              </a>
+              <a href="https://maps.app.goo.gl/SxRSCZ6u45fMFiJAA" target="_blank" class="transition ease-in-out delay-150 flex flex-row items-center hover:-translate-y-1 hover:scale-110">
+                <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
+                  <img src="assets/images/icons/location.svg" alt="Address" class="w-[40px] h-[40px]"/>
+                </div>
+                <div class="flex flex-col items-start">
+                  <p class="font-semibold text-black">Adresa Fizike</p>
+                  <p class="leading-7 text-gray-800">Rruga Hajdar Hidi, Tirana 1001, Albania</p>
+                </div>
+              </a>
+              <a href="https://l.instagram.com/?u=https%3A%2F%2Fforms.gle%2FvjsTU5hkUifK7obg9&e=AT3-zXX8fqlobkaBXSF3-Ro_q1CGhtchDtKIVmHWIE-BdoYYTV-GtVymccnEWSXaO-sCT5fBVukHCaBBdZ7e81O1mhj9VKE62XyHisE" target="_blank" class="transition ease-in-out delay-150 flex flex-row items-center hover:-translate-y-1 hover:scale-110">
+                <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
+                  <img src="assets/images/icons/clipboard.svg" alt="Google Forms" class="w-[40px] h-[40px]"/>
+                </div>
+                <div class="flex flex-col items-start">
+                  <p class="font-semibold text-black">Formulari i Antarësimit</p>
+                  <p class="leading-7 text-gray-800">forms.gle/vjsTU5hkUifK7obg9</p>
+                </div>
+              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+    <div class="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.1508689861757!2d19.809772975799625!3d41.3273325997185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135031dec6507763%3A0xb4932337b667eab1!2sTexo%20Training%20Center!5e0!3m2!1sen!2s!4v1727093836459!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"></iframe>
+    </div>
+  </div>
 </div>
+

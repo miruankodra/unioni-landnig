@@ -1,4 +1,4 @@
-<div class="fixed inset-x-0 top-0 z-10 w-full flex flex-col items-start justify-start bg-opacity-40 backdrop-blur-3xl px-8 py-1 rounded-b-[15px]">
+<div class="absolute inset-x-0 top-0 z-10 w-full flex flex-col items-start justify-start bg-opacity-40 backdrop-blur-3xl px-8 py-1 rounded-b-[15px]">
   <div class="w-full py-2 flex flex-row items-center justify-between">
     <div class="w-1/5 flex items-center justify-center">
       <img src="assets/images/usm-logo.png" alt="Unioni Studentor Musliman" class="w-[128px]">
@@ -17,7 +17,7 @@
     </div>
     <div class="w-1/5 md:flex hidden flex-row items-center justify-center">
       <div class="w-1/2">
-        <app-button> Donato </app-button>
+        <app-button background="bg-[#292C27]" width="w-auto px-5" height="h-[54px]" text="text-[20px] text-white text-semibold" radius="rounded-full"> Bashkohu  </app-button>
       </div>
     </div>
     <img src="assets/images/icons/{{ !isToggled ? 'menu.svg' : 'close.svg' }}" alt="menu" class="size-[34px] cursor-pointer md:hidden block" (click)="toggleMenu()">
